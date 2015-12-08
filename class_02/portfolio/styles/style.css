@@ -1,0 +1,69 @@
+
+body{
+	background-color: rgb(255, 255, 255);
+	margin:0px;
+}
+
+
+/* Navigation */
+
+.navigation div{
+	padding: 0px 100px 0px 100px;;
+}
+
+.navigation ul {
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 102, 255, .75);
+}
+
+.navigation.name li {
+	float: right;
+	padding: 14px 16px;
+}
+
+.navigation img {
+    float: right;
+    height: 30px;
+    padding-top: 8px;
+    padding-right: 16px;
+}
+
+.navigation li a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation li a:hover {
+    color: #111;
+}
+
+/* Main Content */
+
+.maincontent {
+	padding: 0px 100px 0px 100px;
+
+}
+
+h1, h2, .navigation {
+	font-family: "Poiret One", sans-serif;
+}
+
+
+p, .maincontent li{
+	font-family: "Open Sans", sans-serif;
+}
+
+img {
+    align: center;
+
+}

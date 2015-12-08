@@ -1,0 +1,17 @@
+body {
+	background-color: #FFE;
+	border: 3px solid black;
+}
+
+img {
+	border: 3px solid black;
+}
+
+p.nutrition{
+	color: #900;
+}
+
+a {
+	color: #900;
+}
+
