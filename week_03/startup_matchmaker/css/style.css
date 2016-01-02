@@ -1,0 +1,154 @@
+body{
+	background-color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+/*Header*/
+
+header {
+	height: 128px;	
+	overflow: auto;
+	border-bottom: 4px solid yellow;
+}
+
+h1 {
+	color: yellow;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin: auto 0;
+	font-size: 50px;
+}
+
+nav {
+	float: left;
+	padding-top: 75px;
+	padding-left: 40px;
+	margin: auto 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+	padding-right: 22px;
+	font-size: 20px;
+}
+
+.main{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+strike {
+	color: #999;
+}
+
+span {
+	border-bottom: 4px solid yellow;
+}
+
+blockquote {	
+	width: 1280px;
+	height: 75px;
+	float: left;
+	overflow: auto;
+	margin: auto 0;
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	background: #C6C6C6;
+	font-size: 30px;
+	font-style: italic;
+
+}
+
+/*overlay copy*/
+
+.center {
+	width: 1280px;
+	height: 830px;
+	background: url(../images/coworking.jpg) no-repeat center top;
+}
+
+aside{
+	background: rgba(255, 255, 255, .8);
+	border: 4px solid #AAA;
+	float: right;
+	width: 315px;
+	height: 400px;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	padding: 10px 30px 0px 30px;
+	font-size: 30px;
+}
+
+button {
+	width: 255px;
+	height: 55px;
+	margin: 0px 30px 0px 30px;
+	background-color: yellow;
+	border-radius: 10px;
+}
+
+p {
+	font-size: 14px;
+	padding: 0px 30px 0px 30px;
+	font-size: 20px;
+}
+
+/*three boxes*/
+h3{
+	color: black;
+	font-family: 'Merriweather', serif;
+	padding: 40px 40px 0px 20px;
+	font-size: 30px;
+}
+
+.aside-right{
+	height: 345px;
+	width: 33%;
+	float: left;
+	text-align: left;
+	border-right: 1px #AAA solid; 
+}
+.aside-center{
+	height: 345px;
+	width: 33%;
+	float: left;
+	text-align: left;
+	border-right: 1px #AAA solid; 
+}
+.aside-left{
+	height: 345px;
+	width: 33%;
+	float: left;
+	text-align: left;
+}
+
+.white { background: #ffffff; }
+.lightgray { background: #C6C6C6; }
+
+/*footer*/
+.footer {
+	width: 1280px;
+	float: left;
+	clear: left;
+	color: white;
+}
+
